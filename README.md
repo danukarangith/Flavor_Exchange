@@ -1,54 +1,49 @@
-# React + TypeScript + Vite
+# Flavor Exchange: Recipe Sharing Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simplified recipe-sharing platform where users can browse, create, save, and share their favorite recipes. This project is built using React, TypeScript, Material-UI, and Zustand for state management.
 
-Currently, two official plugins are available:
+![Image](https://github.com/user-attachments/assets/879ad1be-48c8-400c-8efe-d5a02c178ecb)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Dark Mode
+![Image](https://github.com/user-attachments/assets/b16e9727-f20e-454a-bc5a-674409066d59)
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Recipe Feed**: Browse a grid/list of recipes with title, cooking time, rating, and image.
+- **Recipe Details Page**: View detailed recipe information, including ingredients, instructions, and a "Save to Favorites" button.
+- **User Authentication (Mock)**: Simple login/signup flow using local storage for user data.
+- **CRUD for Recipes**: Create, update, and delete recipes with an easy-to-use form.
+- **Favorites System**: Save and unsave recipes to your favorites list.
+- **State Management**: Use Zustand for managing user authentication, recipe data, and favorite recipes.
+- **UI Styling**: Styled using Material-UI components for a modern, responsive design.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Optional Features (Bonus)
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- **Cooking Timer**: Start a timer from a recipe's "Cooking Time" field.
+- **Ingredient Substitutions**: Show alternative ingredients for common items.
+- **Social Sharing**: Share recipes on social media (mock functionality).
+- **Advanced Filtering**: Filter recipes by dietary restrictions (vegan, gluten-free, etc.).
+- **Dark Mode**: Toggle between light and dark themes using CSS variables.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Technologies Used
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+- **React** (for building the UI)
+- **TypeScript** (for type safety)
+- **Zustand** (for state management)
+- **Material-UI** (for UI components)
+- **React Router** (for routing)
+- **localStorage** (for persisting user data and favorites)
+
+## Installation
+
+### Prerequisites
+
+- Node.js (>=16.x)
+- npm (>=7.x)
+
+### Steps
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/danukarangith/recipe_sharing_platform.git

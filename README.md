@@ -4,6 +4,9 @@ A simplified recipe-sharing platform where users can browse, create, save, and s
 
 ![Image](https://github.com/user-attachments/assets/879ad1be-48c8-400c-8efe-d5a02c178ecb)
 
+---
+
+
 ## Dark Mode
 ![Image](https://github.com/user-attachments/assets/b16e9727-f20e-454a-bc5a-674409066d59)
 

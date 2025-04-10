@@ -49,4 +49,4 @@ A simplified recipe-sharing platform where users can browse, create, save, and s
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/danukarangith/recipe_sharing_platform.git
+git clone https://github.com/danukarangith/Flavor_Exchange.git

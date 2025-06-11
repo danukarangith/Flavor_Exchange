@@ -1,6 +1,6 @@
 # Flavor Exchange: Recipe Sharing Platform
 
-A simplified recipe-sharing platform where users can browse, create, save, and share their favorite recipes. This project is built using React, TypeScript, Material-UI, and Zustand for state management.
+A simplified recipe-sharing platform where users can browse, create, save, and share their favorite recipes. This project is built using React, TypeScript, Material-UI, and Zustand for state management
 
 ![Image](https://github.com/user-attachments/assets/879ad1be-48c8-400c-8efe-d5a02c178ecb)
 
